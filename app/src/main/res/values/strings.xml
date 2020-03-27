@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SearchMovieProject</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="please_enter_movie_name">Please Enter Movie Name :</string>
+    <string name="favorite_movies">Favorite Movies</string>
+    <string name="about">This App is final task of Android Advance Course Powered by www.themoviedb.org wesite.
+        Appreciate to  my teacher Mr.Pouya Heidari for providing me with all the knowledge and moral support I need to be able to face my future work.
+    </string>
+</resources>

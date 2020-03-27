@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imgBackOff"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="187dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgForeOff"
+                android:layout_width="100dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp" />
+
+            <LinearLayout
+                android:layout_width="276dp"
+                android:layout_height="154dp"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtTitleOff"
+                    android:layout_width="225dp"
+                    android:layout_height="80dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="27dp"
+                    />
+
+                <TextView
+                    android:id="@+id/txtTagOff"
+                    android:layout_width="229dp"
+                    android:layout_height="60dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="17dp"
+
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/txtGenreOff"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+
+            />
+        <TextView
+            android:id="@+id/txtYearOff"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/txtBudgetOff"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+
+            />
+        <TextView
+            android:id="@+id/txtVoteOff"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            />
+        <TextView
+            android:id="@+id/txtProductOff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+
+            />
+
+        <RatingBar
+            android:id="@+id/ratingOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"
+            android:numStars="5"
+            android:stepSize="0.1"
+            android:isIndicator="true" />
+        <TextView
+            android:id="@+id/txtDesOff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/description"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="17dp"
+            android:layout_marginLeft="20dp"
+            />
+
+
+        <TextView
+            android:id="@+id/txtOverOff"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="35dp"
+            android:scrollbars="vertical"
+            android:textColor="@android:color/white"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
